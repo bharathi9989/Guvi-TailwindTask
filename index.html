@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guci Assignment 2 Jascar</title>
+    <title>Guvi-Task2</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -106,12 +106,12 @@
     </div>
   </div>
 </nav>
-    <div
-  class="w-full min-h-[677px] bg-gradient-to-r from-[#1A0F91] to-[#7B61FF] flex justify-between overflow-hidden relative px-[70px] pt-[40px]"
+  <div
+  class="w-full h-[936px] bg-gradient-to-r from-[#1A0F91] to-[#7B61FF] flex justify-between overflow-hidden relative px-[70px] pt-[120px]"
 >
   <!-- LEFT -->
 
-  <div class="w-[620px] flex flex-col gap-8 z-10">
+  <div class="w-[720px] flex flex-col gap-8 z-10">
     
     <p
       class="text-white text-[14px] tracking-[3px] righteous-regular"
@@ -119,44 +119,62 @@
       SUCCESSFUL COACHES ARE VISIONARIES
     </p>
 
-    <h1
-      class="text-white text-[76px] leading-[92px] righteous-regular"
-    >
-      Good
-      <span class="text-[#245DFF]">coaching</span>
-      is good teaching &
-      nothing else.
-    </h1>
+    <!-- TITLE -->
 
-    <div class="flex items-center gap-10">
+    <div
+      class="text-white righteous-regular text-[76px] leading-[104px]"
+    >
+      <h1>
+        Good
+        <span class="text-[#245DFF]">coaching</span>
+        is
+      </h1>
+
+      <h1>
+        good teaching &
+      </h1>
+
+      <h1>
+        nothing else.
+      </h1>
+    </div>
+
+    <!-- BUTTONS -->
+
+    <div class="flex items-center gap-10 mt-2">
+      
       <button
-        class="w-[200px] h-[60px] border border-white rounded-xl text-white text-[18px] righteous-regular"
+        class="w-[194px] h-[60px] border border-white rounded-xl text-white text-[18px] righteous-regular hover:bg-white hover:text-[#1A0F91] transition duration-300"
       >
         View Courses
       </button>
 
-      <p class="text-white text-[18px] righteous-regular">
+      <p
+        class="text-white text-[18px] righteous-regular cursor-pointer"
+      >
         Get Free Consultation
       </p>
+
     </div>
 
     <!-- SEARCH -->
 
     <div
-      class="w-[500px] h-[70px] bg-white rounded-xl flex items-center justify-between px-5"
+      class="w-[489px] h-[70px] bg-white rounded-xl flex items-center justify-between px-5 mt-6"
     >
       <input
         type="text"
         placeholder="What do you want to learn today?"
-        class="outline-none w-full text-[16px] righteous-regular"
+        class="outline-none w-full text-[16px] righteous-regular text-[#333]"
       />
 
       <button
-        class="w-[120px] h-[50px] rounded-lg bg-gradient-to-r from-[#083F9B] to-[#7F56D9] text-white flex items-center justify-center gap-2"
+        class="w-[112px] h-[49px] rounded-lg bg-gradient-to-r from-[#083F9B] to-[#7F56D9] text-white flex items-center justify-center gap-2 righteous-regular text-[16px]"
       >
         <img
           src="./assets/search_icon.png"
-          class="w-[18px]"
+          class="w-[18px] h-[18px] object-contain"
+          alt=""
         />
 
         Search
@@ -166,31 +184,58 @@
 
   <!-- RIGHT -->
 
-  <div class="relative w-[500px] h-[600px]">
+  <div class="relative w-[650px] h-[936px]">
     
     <!-- REVIEW -->
 
-    <div class="absolute top-[20px] left-[0px] w-[320px]">
-      <div class="flex gap-5">
+    <div class="absolute top-[110px] left-[0px] w-[320px] z-20">
+      
+      <div class="flex gap-5 items-start">
         
-        <img
-          src="./assets/qoute.png"
-          class="w-[20px] h-[20px] mt-2"
-        />
+        <!-- QUOTE -->
 
-        <div>
-          <p class="text-white righteous-regular text-[18px] mb-3">
+        <div class="flex flex-col items-center">
+          
+          <div
+            class="w-[24px] h-[24px] rounded-full bg-[#22D3EE] flex items-center justify-center"
+          >
+            <img
+              src="./assets/qoute.png"
+              class="w-[10px]"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="w-[2px] h-[120px] bg-[#7DD3FC] mt-2"
+          ></div>
+        </div>
+
+        <!-- TEXT -->
+
+        <div class="w-[272px]">
+          
+          <p
+            class="text-white righteous-regular text-[18px] mb-3"
+          >
             Shyam
           </p>
 
           <p
-            class="text-white text-[15px] leading-[28px]"
+            class="text-white text-[15px] leading-[32px] righteous-regular"
           >
             In a coaching role, you ask the
             questions and rely more on your
             staff, who become the experts, to
             provide the information.
           </p>
+
+          <p
+            class="text-[#38BDF8] text-[14px] mt-4 righteous-regular"
+          >
+            4.9
+          </p>
+
         </div>
       </div>
     </div>
@@ -198,15 +243,17 @@
     <!-- GLOW -->
 
     <div
-      class="absolute right-[10px] top-[130px] w-[350px] h-[350px] rounded-full bg-white/40 blur-[120px]"
+      class="absolute right-[80px] top-[120px] w-[420px] h-[420px] rounded-full bg-white/40 blur-[140px]"
     ></div>
 
     <!-- IMAGE -->
 
     <img
-      src="./assets/Untitled (25).png"
-      class="absolute bottom-0 right-0 w-[420px] object-contain z-10"
+      src="./assets/staff.png"
+      class="absolute bottom-0 right-0 w-[558px] h-[922px] object-contain z-10"
+      alt=""
     />
+
   </div>
 </div>
 
