@@ -28,138 +28,187 @@
     />
   </head>
   <body>
-    <div>
-      <div
-        class="w-full min-h-[300px] md:min-h-[100px] lg:min-h-[119px] flex flex-col md:flex-row lg:flex-row justify-around items-center"
-      >
-        <img
-          class="w-[120px] md:w-[160px] lg:w-[191px] h-[70px] md:h-[90px] lg:h-[110px]"
-          src="./assets/Logo.png"
-          alt="Logo"
-        />
-        <div
-          class="md:bg-white lg:bg-white justify-center lg:text-[20px] items-center flex flex-col md:flex-row md:w-[300px] lg:w-[397px] min-h-[20px] md:min-h-[24px] lg:min-h-[26px] gap-2 md:gap-4"
-        >
-          <a
-            class="righteous-regular lg:text-[20px] bg-slate-100 text-center md:bg-white lg:bg-white"
-            href="#"
-            >Home</a
-          >
-          <a
-            class="righteous-regular bg-slate-100 text-center md:bg-white lg:bg-white"
-            href="#"
-            >About</a
-          >
-          <a
-            class="righteous-regular lg:text-[20px] bg-slate-100 text-center md:bg-white lg:bg-white"
-            href="#"
-            >Courses</a
-          >
-          <a
-            class="righteous-regular lg:text-[20px] bg-slate-100 text-center md:bg-white lg:bg-white poin"
-            href="#"
-            >Contact</a
-          >
-        </div>
-        <img
-          class="cursor-pointer hidden md:block w-[100px] md:w-[120px] lg:w-[130px] h-[25px] md:h-[30px] lg:h-[33px]"
-          src="./assets/Group 1 (1).png"
-          alt=""
-        />
-        <div
-          class="flex flex-col md:flex-row md:w-auto m-2 gap-3 child:grow md:child:grow-0 rounded justify-between items-center lg:gap-7"
-        >
-          <a class="text-center underline lg:text-[20px]" href="#">Login</a>
-          <button
-            class="cursor-pointer bg-gradient-to-br lg:w-[130px] lg:text-[20px] lg:h-[50px] md:w-auto from-[#083F9B] to-[#7F56D9] text-white p-2 md:p-2 lg:p-1 rounded"
-          >
-            Signup
-          </button>
-        </div>
-      </div>
-    </div>
-    <div
-      class="bg-gradient-to-tr from-[#04016C] to-[#7F56D9] h-[890px] lg:h-[677px] md:h-[400px] flex flex-col md:flex-row lg:flex-row justify-start md:justify-around lg:justify-between lg:items-start md:items-start w-full"
-    >
-      <div
-        class="flex flex-col justify-start pl-[70px] text-center gap-5 lg:flex-col w-[300px] md:w-[400px] lg:w-[700px] min-h-[400px] md:min-h-[500px] lg:min-h-[585px] lg:mt-4 md:mt-4"
-      >
-        <p
-          class="md:w-[300px] lg:w-[380px] text-[10px] md:text-[14px] text-sm lg:text-[16px] h-[13px] text-white righteous-regular text-start"
-        >
-          SUCCESSFUL COACHES ARE VISIONARIES
-        </p>
-        <div class="lg:w-[700px] text-start md:w-[398px] lg:text-[75px]">
-          <p
-            class="lg:text-[75px] md:text-[30px] text-[30px] text-white righteous-regular"
-          >
-            Good
-            <a
-              class="lg:text-[75px] md:text-[30px] text-[30px] text-[#0E38CD]"
-              href="#"
-              >Coaching </a
-            >is good teaching & nothing else.
-          </p>
-        </div>
-        <div
-          class="flex flex-row justify-start items-center gap-8 md:w-[400px] lg:w-[468px] min-h-[40px] md:min-h-[50px] lg:min-h-[60px]"
-        >
-          <button
-            class="text-white righteous-regular text-[10px] lg:text-[18px] md:text-[14px] w-[110px] md:w-[170px] lg:w-[194px] h-[40px] md:h-[55px] lg:h-[60px] rounded-md md:rounded-lg border border-gray-300"
-          >
-            View Courses
-          </button>
-          <p
-            class="text-white righteous-regular text-[10px] lg:text-[18px] md:text-[14px] w-[110px] md:w-[170px] lg:w-[194px]"
-          >
-            Get Free Cancelation
-          </p>
-        </div>
-        <div
-          class="md:w-[400px] lg:w-[489px] h-[50px] md:min-h-[60px] lg:h-[70px] bg-white rounded-md flex flex-row justify-around items-center p-4"
-        >
-          <p
-            class="md:w-[200px] lg:w-[258px] text-[10px] md:text-[12px] lg:text-[16px] w-[220px] righteous-regular"
-          >
-            What do you want to learn today?
-          </p>
-          <button
-            class="w-[100px] md:w-[120px] lg:w-[112px] h-[34px] md:h-[45px] lg:h-[49px] bg-gradient-to-br from-[#083F9B] to-[#7F56D9] text-white rounded-md flex flex-row justify-around items-center righteous-regular text-[13px] lg:text-[18px] md:text-[15px] p-2"
-          >
-            <img
-              class="w-[16px] h-[20px] lg:w-[20px] md:w-[18px] lg:h-[20px] md:h-[18px] object-contain"
-              src="./assets/search_icon.png"
-              alt=""
-            />
-            Search
-          </button>
-        </div>
-      </div>
 
-      <div
-        class="h-[749px] lg:h-[600px] lg:w-[468px] justify-start md:w-[240px] lg:justify-start flex lg:flex-col flex-col"
+    <!-- NavBar -->
+    <nav
+  class="w-full h-[119px] bg-white flex items-center justify-between px-8 lg:px-16"
+>
+  <!-- LEFT LOGO -->
+  <div class="w-[191px] h-[110px] flex items-center">
+    <img
+      class="w-full h-full object-contain"
+      src="./assets/Logo.png"
+      alt="Logo"
+    />
+  </div>
+
+  <!-- CENTER NAV LINKS -->
+  <div
+    class="hidden md:flex items-center gap-12"
+  >
+    <a
+      class="righteous-regular text-[20px] text-black hover:text-[#7F56D9] transition"
+      href="#"
+    >
+      Home
+    </a>
+
+    <a
+      class="righteous-regular text-[20px] text-black hover:text-[#7F56D9] transition"
+      href="#"
+    >
+      About
+    </a>
+
+    <a
+      class="righteous-regular text-[20px] text-black hover:text-[#7F56D9] transition"
+      href="#"
+    >
+      Courses
+    </a>
+
+    <a
+      class="righteous-regular text-[20px] text-black hover:text-[#7F56D9] transition"
+      href="#"
+    >
+      Contact
+    </a>
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="flex items-center gap-10">
+
+    <!-- ICONS -->
+    <div class="hidden md:flex items-center">
+      <img
+        class="w-[130px] h-[33px] object-contain cursor-pointer"
+        src="./assets/Group 1 (1).png"
+        alt=""
+      />
+    </div>
+
+    <!-- AUTH -->
+    <div class="flex items-center gap-8">
+
+      <a
+        class="text-[20px] underline text-black"
+        href="#"
       >
-        <div
-          class="lg:w-[321px] lg:h-[180px] flex flex-col justify-around items-start"
-        >
-          <div class="flex flex-row">
-            <img src="./assets/qoute.png" alt="" />
-            <div class="flex flex-col gap-4">
-              <p class="righteous-regular text-white">Shyam</p>
-              <p class="righteous-regular , text-white text-sm">
-                In a coaching role, you ask the questions and rely more on your
-                staff, who become the experts, to provide the information.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="flex lg:items-start md:items-start items-center w-[290px] md:w-[240px] lg:w-[320px] lg:h-[400px]"
-        >
-          <img src="./assets/Untitled (25).png" alt="" />
+        Login
+      </a>
+
+      <button
+        class="w-[138px] h-[60px] rounded-[10px] bg-gradient-to-br from-[#083F9B] to-[#7F56D9] text-white text-[20px] righteous-regular hover:scale-105 transition duration-300"
+      >
+        Signup
+      </button>
+
+    </div>
+  </div>
+</nav>
+    <div
+  class="w-full min-h-[677px] bg-gradient-to-r from-[#1A0F91] to-[#7B61FF] flex justify-between overflow-hidden relative px-[70px] pt-[40px]"
+>
+  <!-- LEFT -->
+
+  <div class="w-[620px] flex flex-col gap-8 z-10">
+    
+    <p
+      class="text-white text-[14px] tracking-[3px] righteous-regular"
+    >
+      SUCCESSFUL COACHES ARE VISIONARIES
+    </p>
+
+    <h1
+      class="text-white text-[76px] leading-[92px] righteous-regular"
+    >
+      Good
+      <span class="text-[#245DFF]">coaching</span>
+      is good teaching &
+      nothing else.
+    </h1>
+
+    <div class="flex items-center gap-10">
+      <button
+        class="w-[200px] h-[60px] border border-white rounded-xl text-white text-[18px] righteous-regular"
+      >
+        View Courses
+      </button>
+
+      <p class="text-white text-[18px] righteous-regular">
+        Get Free Consultation
+      </p>
+    </div>
+
+    <!-- SEARCH -->
+
+    <div
+      class="w-[500px] h-[70px] bg-white rounded-xl flex items-center justify-between px-5"
+    >
+      <input
+        type="text"
+        placeholder="What do you want to learn today?"
+        class="outline-none w-full text-[16px] righteous-regular"
+      />
+
+      <button
+        class="w-[120px] h-[50px] rounded-lg bg-gradient-to-r from-[#083F9B] to-[#7F56D9] text-white flex items-center justify-center gap-2"
+      >
+        <img
+          src="./assets/search_icon.png"
+          class="w-[18px]"
+        />
+
+        Search
+      </button>
+    </div>
+  </div>
+
+  <!-- RIGHT -->
+
+  <div class="relative w-[500px] h-[600px]">
+    
+    <!-- REVIEW -->
+
+    <div class="absolute top-[20px] left-[0px] w-[320px]">
+      <div class="flex gap-5">
+        
+        <img
+          src="./assets/qoute.png"
+          class="w-[20px] h-[20px] mt-2"
+        />
+
+        <div>
+          <p class="text-white righteous-regular text-[18px] mb-3">
+            Shyam
+          </p>
+
+          <p
+            class="text-white text-[15px] leading-[28px]"
+          >
+            In a coaching role, you ask the
+            questions and rely more on your
+            staff, who become the experts, to
+            provide the information.
+          </p>
         </div>
       </div>
     </div>
+
+    <!-- GLOW -->
+
+    <div
+      class="absolute right-[10px] top-[130px] w-[350px] h-[350px] rounded-full bg-white/40 blur-[120px]"
+    ></div>
+
+    <!-- IMAGE -->
+
+    <img
+      src="./assets/Untitled (25).png"
+      class="absolute bottom-0 right-0 w-[420px] object-contain z-10"
+    />
+  </div>
+</div>
 
     <div
       class="w-full bg-gradient-to-tr from-[#2E08C7] to-[#7E08C7] md:h-[40px] h-[300px] items-center lg:h-[100px] flex lg:flex-row flex-col md:flex-row lg:items-center justify-around"
