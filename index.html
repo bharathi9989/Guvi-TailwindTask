@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guci Assignment 2 Jascar</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="./tailwind.config.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Rowdies:wght@300;400;700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Rowdies:wght@300;400;700&family=Saira:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <div
+        class="w-full min-h-[300px] md:min-h-[100px] lg:min-h-[119px] flex flex-col md:flex-row lg:flex-row justify-around items-center"
+      >
+        <img
+          class="w-[120px] md:w-[160px] lg:w-[191px] h-[70px] md:h-[90px] lg:h-[110px]"
+          src="./assets/Logo.png"
+          alt="Logo"
+        />
+        <div
+          class="md:bg-white lg:bg-white justify-center lg:text-[20px] items-center flex flex-col md:flex-row md:w-[300px] lg:w-[397px] min-h-[20px] md:min-h-[24px] lg:min-h-[26px] gap-2 md:gap-4"
+        >
+          <a
+            class="righteous-regular lg:text-[20px] bg-slate-100 text-center md:bg-white lg:bg-white"
+            href="#"
+            >Home</a
+          >
+          <a
+            class="righteous-regular bg-slate-100 text-center md:bg-white lg:bg-white"
+            href="#"
+            >About</a
+          >
+          <a
+            class="righteous-regular lg:text-[20px] bg-slate-100 text-center md:bg-white lg:bg-white"
+            href="#"
+            >Courses</a
+          >
+          <a
+            class="righteous-regular lg:text-[20px] bg-slate-100 text-center md:bg-white lg:bg-white poin"
+            href="#"
+            >Contact</a
+          >
+        </div>
+        <img
+          class="cursor-pointer hidden md:block w-[100px] md:w-[120px] lg:w-[130px] h-[25px] md:h-[30px] lg:h-[33px]"
+          src="./assets/Group 1 (1).png"
+          alt=""
+        />
+        <div
+          class="flex flex-col md:flex-row md:w-auto m-2 gap-3 child:grow md:child:grow-0 rounded justify-between items-center lg:gap-7"
+        >
+          <a class="text-center underline lg:text-[20px]" href="#">Login</a>
+          <button
+            class="cursor-pointer bg-gradient-to-br lg:w-[130px] lg:text-[20px] lg:h-[50px] md:w-auto from-[#083F9B] to-[#7F56D9] text-white p-2 md:p-2 lg:p-1 rounded"
+          >
+            Signup
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="bg-gradient-to-tr from-[#04016C] to-[#7F56D9] h-[890px] lg:h-[677px] md:h-[400px] flex flex-col md:flex-row lg:flex-row justify-start md:justify-around lg:justify-between lg:items-start md:items-start w-full"
+    >
+      <div
+        class="flex flex-col justify-start pl-[70px] text-center gap-5 lg:flex-col w-[300px] md:w-[400px] lg:w-[700px] min-h-[400px] md:min-h-[500px] lg:min-h-[585px] lg:mt-4 md:mt-4"
+      >
+        <p
+          class="md:w-[300px] lg:w-[380px] text-[10px] md:text-[14px] text-sm lg:text-[16px] h-[13px] text-white righteous-regular text-start"
+        >
+          SUCCESSFUL COACHES ARE VISIONARIES
+        </p>
+        <div class="lg:w-[700px] text-start md:w-[398px] lg:text-[75px]">
+          <p
+            class="lg:text-[75px] md:text-[30px] text-[30px] text-white righteous-regular"
+          >
+            Good
+            <a
+              class="lg:text-[75px] md:text-[30px] text-[30px] text-[#0E38CD]"
+              href="#"
+              >Coaching </a
+            >is good teaching & nothing else.
+          </p>
+        </div>
+        <div
+          class="flex flex-row justify-start items-center gap-8 md:w-[400px] lg:w-[468px] min-h-[40px] md:min-h-[50px] lg:min-h-[60px]"
+        >
+          <button
+            class="text-white righteous-regular text-[10px] lg:text-[18px] md:text-[14px] w-[110px] md:w-[170px] lg:w-[194px] h-[40px] md:h-[55px] lg:h-[60px] rounded-md md:rounded-lg border border-gray-300"
+          >
+            View Courses
+          </button>
+          <p
+            class="text-white righteous-regular text-[10px] lg:text-[18px] md:text-[14px] w-[110px] md:w-[170px] lg:w-[194px]"
+          >
+            Get Free Cancelation
+          </p>
+        </div>
+        <div
+          class="md:w-[400px] lg:w-[489px] h-[50px] md:min-h-[60px] lg:h-[70px] bg-white rounded-md flex flex-row justify-around items-center p-4"
+        >
+          <p
+            class="md:w-[200px] lg:w-[258px] text-[10px] md:text-[12px] lg:text-[16px] w-[220px] righteous-regular"
+          >
+            What do you want to learn today?
+          </p>
+          <button
+            class="w-[100px] md:w-[120px] lg:w-[112px] h-[34px] md:h-[45px] lg:h-[49px] bg-gradient-to-br from-[#083F9B] to-[#7F56D9] text-white rounded-md flex flex-row justify-around items-center righteous-regular text-[13px] lg:text-[18px] md:text-[15px] p-2"
+          >
+            <img
+              class="w-[16px] h-[20px] lg:w-[20px] md:w-[18px] lg:h-[20px] md:h-[18px] object-contain"
+              src="./assets/search_icon.png"
+              alt=""
+            />
+            Search
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="h-[749px] lg:h-[600px] lg:w-[468px] justify-start md:w-[240px] lg:justify-start flex lg:flex-col flex-col"
+      >
+        <div
+          class="lg:w-[321px] lg:h-[180px] flex flex-col justify-around items-start"
+        >
+          <div class="flex flex-row">
+            <img src="./assets/qoute.png" alt="" />
+            <div class="flex flex-col gap-4">
+              <p class="righteous-regular text-white">Shyam</p>
+              <p class="righteous-regular , text-white text-sm">
+                In a coaching role, you ask the questions and rely more on your
+                staff, who become the experts, to provide the information.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex lg:items-start md:items-start items-center w-[290px] md:w-[240px] lg:w-[320px] lg:h-[400px]"
+        >
+          <img src="./assets/Untitled (25).png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="w-full bg-gradient-to-tr from-[#2E08C7] to-[#7E08C7] md:h-[40px] h-[300px] items-center lg:h-[100px] flex lg:flex-row flex-col md:flex-row lg:items-center justify-around"
+    >
+      <img
+        class="lg:w-[60px] lg:h-[20px] w-[40px] h-[15px]"
+        src="./assets/spotify.png"
+        alt=""
+      />
+      <img
+        class="lg:w-[60px] lg:h-[20px] w-[40px] h-[15px]"
+        src="./assets/amazon.png"
+        alt=""
+      />
+      <img
+        class="lg:w-[60px] lg:h-[20px] w-[40px] h-[15px]"
+        src="./assets/spotify.png"
+        alt=""
+      />
+      <img
+        class="lg:w-[60px] lg:h-[30px] w-[40px] h-[15px]"
+        src="./assets/cisco.png"
+        alt=""
+      />
+      <img
+        class="lg:w-[60px] lg:h-[20px] w-[40px] h-[15px]"
+        src="./assets/logitech.png"
+        alt=""
+      />
+      <img
+        class="lg:w-[60px] lg:h-[20px] w-[40px] h-[15px]"
+        src="./assets/amazon.png"
+        alt=""
+      />
+    </div>
+
+    <!-- page2 -->
+    <div
+      class="bg-gradient-to-b from-[#F0F3FF] to-[#D9ECFF] h-[2200px] md:h-[850px] lg:h-[840px] w-full flex flex-col items-center"
+    >
+      <p class="rowdies-bold text-[15px] md:text-[20px] lg:text-[22px]">
+        Featured <a class="rowdies-new" href="#">Course</a>
+      </p>
+      <p
+        class="righteous-regular text-[7px] tracking-widest md:text-[12px] lg:text-[12px]"
+      >
+        THE FEATURE COURSES ARE WE INVENTED OUR TECHING PART
+      </p>
+      <!-- //cards -->
+      <div class="flex flex-col justify-center gap-1">
+        <!-- cardframe div -->
+
+        <div id="card1-3" class="flex flex-col md:flex-row lg:flex-row gap-3">
+          <!-- card1 -->
+          <div
+            class="w-[280px] h-[300px] rounded-md mt-9 flex flex-col md:w-[200px] lg:w-[280px] shadow-lg"
+          >
+            <div
+              class="w-[280px] h-[150px] lg:w-[280px] lg:h-[150px] md:w-[200px] md:h-[120px] rounded-md object-cover"
+            >
+              <img
+                class="w-[280px] h-[150px] md:h-[120px] md:w-[200px] rounded-md"
+                src="./assets/card1.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-row justify-between p-3">
+              <p class="text-[8px] saira">1,957 Students</p>
+              <p class="text-[8px] saira">01h 59m</p>
+            </div>
+            <div class="flex justify-start p-3 saira">
+              <p class="text-sm font-semibold saira">
+                Motion Graphics: Create a Nice Typography Animation
+              </p>
+            </div>
+            <div class="flex flex-row justify-between p-3">
+              <p class="text-[10px] font-semibold saira">Rs.499</p>
+              <img class="w-[15px] h-[15px]" src="./assets/cart.png" alt="" />
+            </div>
+          </div>
+
+          <!-- card2 -->
+          <div
+            class="w-[280px] h-[300px] rounded-md mt-9 flex flex-col md:w-[200px] lg:w-[280px] shadow-lg"
+          >
+            <div
+              class="w-[280px] h-[150px] lg:w-[280px] lg:h-[150px] md:w-[200px] md:h-[120px] rounded-md object-cover"
+            >
+              <img
+                class="w-[280px] h-[150px] md:h-[120px] md:w-[200px] rounded-md"
+                src="./assets/card2.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-row justify-between p-3">
+              <p class="text-[8px] saira">9,575 Students</p>
+              <p class="text-[8px] saira">01h 59m</p>
+            </div>
+            <div class="flex justify-start p-3 saira">
+              <p class="text-sm font-semibold saira">
+                Advance PHP knowledge with JS to make smart web
+              </p>
+            </div>
+            <div class="flex flex-row justify-between p-3">
+              <p class="text-[10px] font-semibold saira">Rs.499</p>
+              <img class="w-[15px] h-[15px]" src="./assets/cart.png" alt="" />
+            </div>
+          </div>
+
+          <!-- card3 -->
+          <div
+            class="w-[280px] h-[300px] rounded-md mt-9 flex flex-col md:w-[200px] lg:w-[280px] shadow-lg"
+          >
+            <div
+              class="w-[280px] h-[150px] lg:w-[280px] lg:h-[150px] md:w-[200px] md:h-[120px] rounded-md object-cover"
+            >
+              <img
+                class="w-[280px] h-[150px] md:h-[120px] md:w-[200px] rounded-md"
+                src="./assets/card3.1.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-row justify-between p-3">
+              <p class="text-[8px] saira">2,957 Students</p>
+              <p class="text-[8px] saira">02h 49m</p>
+            </div>
+            <div class="flex justify-start p-3 saira">
+              <p class="text-sm font-semibold saira">
+                Education Software and PHP and JS System Script
+              </p>
+            </div>
+            <div class="flex flex-row justify-between p-3">
+              <p class="text-[10px] font-semibold saira">Rs.499</p>
+              <img class="w-[15px] h-[15px]" src="./assets/cart.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div id="card4-6" class="flex flex-col md:flex-row lg:flex-row gap-3">
+          <!-- card4 -->
+
+          <div
+            class="w-[280px] h-[300px] rounded-md mt-9 flex flex-col md:w-[200px] lg:w-[280px] shadow-lg"
+          >
+            <div
+              class="bw-[280px] h-[150px] lg:w-[280px] lg:h-[150px] md:w-[200px] md:h-[120px] rounded-md object-cover"
+            >
+              <img class="w-[280px] h-[150px] md:h-[120px] md:w-[200px]
+              rounded-md" src="./assets/card4.png "">
+            </div>
+            <div class="flex flex-row justify-between p-3">
+              <p class="text-[8px] saira">5,457 Students</p>
+              <p class="text-[8px] saira">01h 49m</p>
+            </div>
+            <div class="flex justify-start p-3 saira">
+              <p class="text-sm font-semibold saira">
+                The Complete Financial Analyst Training & Investing
+              </p>
+            </div>
+            <div class="flex flex-row justify-between p-3">
+              <p class="text-[10px] font-semibold saira">Rs.499</p>
+              <img class="w-[15px] h-[15px]" src="./assets/cart.png" alt="" />
+            </div>
+          </div>
+
+          <!-- card5 -->
+
+          <div
+            class="w-[280px] h-[300px] lg:w-[280px] rounded-md mt-9 flex flex-col md:w-[200px] shadow-lg"
+          >
+            <div
+              class="w-[280px] h-[150px] lg:w-[280px] lg:h-[150px] md:w-[200px] md:h-[120px] rounded-md object-cover"
+            >
+              <img
+                class="w-[280px] h-[150px] md:h-[120px] md:w-[200px] rounded-md"
+                src="./assets/card5.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-row justify-between p-3">
+              <p class="text-[8px] saira">595 Students</p>
+              <p class="text-[8px] saira">01h 49m</p>
+            </div>
+            <div class="flex justify-start p-3 saira">
+              <p class="text-sm font-semibold saira">
+                Marketing 2023: Complete Guide To Instagram Growth
+              </p>
+            </div>
+            <div class="flex flex-row justify-between p-3">
+              <p class="text-[10px] font-semibold saira">Rs.499</p>
+              <img class="w-[15px] h-[15px]" src="./assets/cart.png" alt="" />
+            </div>
+          </div>
+
+          <!-- card6 -->
+          <div
+            class="w-[280px] h-[300px] lg:w-[280px] rounded-md mt-9 flex flex-col md:w-[200px] shadow-lg"
+          >
+            <div
+              class="w-[280px] h-[150px] lg:w-[280px] lg:h-[150px] md:w-[200px] md:h-[120px] rounded-md object-cover"
+            >
+              <img
+                class="w-[280px] h-[150px] md:h-[120px] md:w-[200px] rounded-md"
+                src="./assets/card6.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-row justify-between p-3">
+              <p class="text-[8px] saira">458 Students</p>
+              <p class="text-[8px] saira">03h 00m</p>
+            </div>
+            <div class="flex justify-start p-3 saira">
+              <p class="text-sm font-semibold saira">
+                Learn 3D Modelling and Design for Beginners
+              </p>
+            </div>
+            <div class="flex flex-row justify-between p-3">
+              <p class="text-[10px] font-semibold saira">Rs.499</p>
+              <img class="w-[15px] h-[15px]" src="./assets/cart.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="bg-gradient-to-t from-[#2E08C7] to-[#7E08C7] mt-5 text-white rounded-md w-[160px] h-[50px] righteous-regular"
+      >
+        Explore courses
+      </button>
+    </div>
+
+    <!-- page3 -->
+
+    <div
+      class="page-wholecontainer w-full h-[1300px] md:h-[500px] lg:h-[700px] bg-gradient-to-tr from-[#739FE8] to-[#4F18CA] flex flex-col justify-around items-center"
+    >
+      <div
+        class="text-container gap-3 flex flex-col justify-center items-center w-[300px] md:w-[700px] ld:w-[100ppx] h-[100px] text-white righteous-regular text-[20px] md:text-[24px] lg:text-[40px]"
+      >
+        <p>
+          Why
+          <a class="cursor-none pointer-events-none text-[#0E38CD]" href="#"
+            >learn </a
+          >with our courses?
+        </p>
+        <div>
+          <p
+            class="text-[7px] saira w-[200px] text-center md:text-[12px] lg:text-[18px] lg:w-[550px]"
+          >
+            We are providing the best courses and top classes.And extradinery
+            placement training.....
+          </p>
+        </div>
+      </div>
+      <div
+        class="container-2 flex flex-col md:flex-row lg:flex-row w-[300px] h-[1100px] md:w-full lg:w-full md:h-[300px] lg:h-[300px] md:justify-around lg:justify-around justify-around items-center"
+      >
+        <div
+          class="w-[240px] h-[200px] flex flex-col justify-around items-center gap-2 text-center"
+        >
+          <img class="w-[80px] h-[80px]" src="./assets/Icon (1).png" alt="" />
+          <p class="righteous-regular text-white text-lg">01. Learn</p>
+          <p class="righteous-regular font-medium text-white text-sm">
+            Learn continually. There is always “one more thing”to learn.
+          </p>
+        </div>
+        <div class="rotate-90 md:rotate-0 lg:rotate-0">
+          <img src="./assets/Line 15.png" alt="" />
+        </div>
+
+        <!-- elment 2 -->
+
+        <div
+          class="w-[240px] h-[200px] flex flex-col justify-between items-center gap-2 text-center"
+        >
+          <img class="w-[80px] h-[80px]" src="./assets/Icon (2).png" alt="" />
+          <p class="righteous-regular text-white text-lg">02. Graduate</p>
+          <p class="righteous-regular font-medium text-white text-sm">
+            Be bold,be courageous, be your best.
+          </p>
+        </div>
+        <div class="rotate-90 md:rotate-0 lg:rotate-0">
+          <img src="./assets/Line 15.png" alt="" />
+        </div>
+
+        <!-- element -3  -->
+        <div
+          class="w-[240px] h-[200px] flex flex-col justify-around items-center gap-2 text-center"
+        >
+          <img class="w-[80px] h-[80px]" src="./assets/Icon (3).png" alt="" />
+          <p class="righteous-regular text-white text-lg">03. Work</p>
+          <p class="righteous-regular font-medium text-white text-sm">
+            Great companies are built in the office,with hard work put in by
+            team.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- page4 -->
+    <div
+      class="w-full h-[2800px] md:h-[350px] lg:h-[500px] flex flex-col justify-around items-center bg-gradient-to-b from-[#ffffff] to-[#D9ECFF]"
+    >
+      <div class="txt-container w-[80vw] h-20 flex flex-col items-center">
+        <p
+          class="righteous-regular text-lg text-[10vw] md:text-[4vw] lg:text-[4vw] text-center"
+        >
+          Top <a class="text-[#0E38CD]" href="#">Categories</a>
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[2vw]">
+          100+ unique online course list designs
+        </p>
+      </div>
+      <div
+        class="container-2 flex flex-col lg:flex-row md:flex-row justify-around gap-10 lg:gap-2 md:gap-2"
+      >
+        <!-- card1 -->
+        <div
+          class="flex flex-col bg-white rounded-md w-[80vw] h-[60vh] md:w-[15vw] md:h-[25vh] lg:w-[15vw] lg:h-[30vh] shadow-gray-300 shadow-lg justify-around items-center"
+        >
+          <img
+            class="w-[40vw] md:w-[6vw] lg:w-[6vw]"
+            src="./assets/page-4 card1.png"
+            alt=""
+          />
+          <p
+            class="righteous-regular text-[10vw] md:text-[1.5vw] lg:text-[1.5vw] text-center"
+          >
+            Digital Marketing
+          </p>
+          <p
+            class="righteous-regular text-[5vw] md:text-[1vw] lg:text-[1vw] text-center"
+          >
+            25 Courses
+          </p>
+        </div>
+
+        <!-- card2 -->
+        <div
+          class="flex flex-col bg-white rounded-md w-[80vw] h-[60vh] md:w-[15vw] md:h-[25vh] lg:w-[15vw] lg:h-[30vh] shadow-gray-300 shadow-lg justify-around items-center"
+        >
+          <img
+            class="w-[40vw] md:w-[6vw] lg:w-[6vw]"
+            src="./assets/page-4 card2.png"
+            alt=""
+          />
+          <p
+            class="righteous-regular text-[10vw] md:text-[1.5vw] lg:text-[1.5vw] text-center"
+          >
+            Web Development
+          </p>
+          <p
+            class="righteous-regular text-[5vw] md:text-[1vw] lg:text-[1vw] text-center"
+          >
+            16 Courses
+          </p>
+        </div>
+        <!-- card-3 -->
+        <div
+          class="flex flex-col bg-white rounded-md w-[80vw] h-[60vh] md:w-[15vw] md:h-[25vh] lg:w-[15vw] lg:h-[30vh] shadow-gray-300 shadow-lg justify-around items-center"
+        >
+          <img
+            class="w-[40vw] md:w-[6vw] lg:w-[6vw]"
+            src="./assets/page-4 card3.png"
+            alt=""
+          />
+          <p
+            class="righteous-regular text-[10vw] md:text-[1.5vw] lg:text-[1.5vw] text-center"
+          >
+            Art & Humanities
+          </p>
+          <p
+            class="righteous-regular text-[5vw] md:text-[1vw] lg:text-[1vw] text-center"
+          >
+            76 Courses
+          </p>
+        </div>
+
+        <!-- card4  -->
+        <div
+          class="flex flex-col bg-white rounded-md w-[80vw] h-[60vh] md:w-[15vw] md:h-[25vh] lg:w-[15vw] lg:h-[30vh] shadow-gray-300 shadow-lg justify-around items-center"
+        >
+          <img
+            class="w-[40vw] md:w-[6vw] lg:w-[6vw]"
+            src="./assets/page-4 card4.png"
+            alt=""
+          />
+          <p
+            class="righteous-regular text-[10vw] md:text-[1.5vw] lg:text-[1.5vw] text-center"
+          >
+            Peronal Development
+          </p>
+          <p
+            class="righteous-regular text-[5vw] md:text-[1vw] lg:text-[1vw] text-center"
+          >
+            22 Courses
+          </p>
+        </div>
+
+        <!-- card5  -->
+        <div
+          class="flex flex-col bg-white rounded-md w-[80vw] h-[60vh] md:w-[15vw] md:h-[25vh] lg:w-[15vw] lg:h-[30vh] shadow-gray-300 shadow-lg justify-around items-center"
+        >
+          <img
+            class="w-[40vw] md:w-[6vw] lg:w-[6vw]"
+            src="./assets/page-4 card5.png"
+            alt=""
+          />
+          <p
+            class="righteous-regular text-[10vw] md:text-[1.5vw] lg:text-[1.5vw] text-center"
+          >
+            IT & Software
+          </p>
+          <p
+            class="righteous-regular text-[5vw] md:text-[1vw] lg:text-[1vw] text-center"
+          >
+            110 Courses
+          </p>
+        </div>
+        <!-- card6  -->
+        <div
+          class="flex flex-col bg-white rounded-md w-[80vw] h-[60vh] md:w-[15vw] md:h-[25vh] lg:w-[15vw] lg:h-[30vh] shadow-gray-300 shadow-lg justify-around items-center"
+        >
+          <img
+            class="w-[40vw] md:w-[6vw] lg:w-[6vw]"
+            src="./assets/page-4 card6.png"
+            alt=""
+          />
+          <p
+            class="righteous-regular text-[10vw] md:text-[1.5vw] lg:text-[1.5vw] text-center"
+          >
+            Grafic Design
+          </p>
+          <p
+            class="righteous-regular text-[5vw] md:text-[1vw] lg:text-[1vw] text-center"
+          >
+            85 Courses
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- page5  -->
+
+    <div
+      class="w-full h-[800px] md:h-[1800px] flex flex-col justify-around items-center bg-gradient-to-b from-[#ffffff] to-[#D9ECFF]"
+    >
+      <div
+        class="container-1 w-[80vw] md:h-[45vh] h-[20vh] rounded-lg bg-gradient-to-tr from-[#c9efff] via-[#7262fe] to-[#df62f5] flex flex-col justify-evenly items-center"
+      >
+        <div class="md:w-[40vw] flex flex-row justify-center items-center">
+          <p
+            class="righteous-regular text-[6vw] md:text-[3vw] text-center text-white"
+          >
+            Subscribe For Get Update Every New Courses
+          </p>
+        </div>
+
+        <p class="righteous-regular text-[6vw] text-center"></p>
+        <p class="text-[2vw] md:text-[1vw] righteous-regular text-white">
+          20k+ students daily learn with Eduvi. Subscribe for new courses.
+        </p>
+        <div class="flex flex-row w-[50vw] h-[3vh] rounded-md">
+          <div
+            class="rounded-l-md bg-[#ffffff57] w-[38vw] h-[3vh] md:h-[5vh] righteous-regular text-[2vw] flex items-center justify-start text-white pl-3"
+          >
+            enter email
+          </div>
+          <button
+            class="w-[12vw] h-[3vh] md:h-[5vh] bg-[#0E38CD] text-white righteous-regular text-[2vw] rounded-r-md"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+      <img
+        class="md:w-[90vw] md:ml-18 ml-7 w-[90vw]"
+        src="./assets/page 5 women.png"
+        alt=""
+      />
+
+      <p
+        class="righteous-regular text-[6vw] md:text-[4vw] text-center text-[#0E38CD]"
+      >
+        Testimonials
+      </p>
+      <p class="text-sm righteous-regular text-[3vw] md:text-[2vw]">
+        What our student say about us
+      </p>
+      <img
+        class="hidden md:block md: w-[80vw]"
+        src="./assets/Testimonials.png"
+        alt=""
+      />
+      <img
+        class="block md:hidden md: w-[80vw]"
+        src="./assets/Testmonials single.png"
+        alt=""
+      />
+      <img
+        class="block md:hidden md: w-[80vw]"
+        src="./assets/Testmonials single.png"
+        alt=""
+      />
+      <img
+        class="block md:hidden md: w-[80vw]"
+        src="./assets/Testmonials single.png"
+        alt=""
+      />
+      <div
+        class="w-full flex flex-row justify-center md:justify-end items-center h-[2vh"
+      >
+        <img class="w-[20vw] md:w-[6vw]" src="./assets/arrow.png" alt="" />
+      </div>
+    </div>
+    <div
+      class="creadits-container flex flex-col lg:flex-row md:flex-row bg-gradient-to-r from-[#7E08C7] to-[#2E08C7] w-full h-[150vh] md:h-[40vh] justify-evenly items-center"
+    >
+      <div class="w-[70vw] md:w-[20vw] flex flex-col">
+        <p class="text-sm righteous-regular text-[5vw] md:text-[2vw]">
+          Connect
+        </p>
+        <img
+          class="mix-blend-color-burn w-[50vw] md:w-[20vw]"
+          src="./assets/Logo.png"
+          alt=""
+        />
+        <p class="text-sm righteous-regular text-[3vw] md:text-[1vw]">
+          Sri Jagannath Nivas,8-1-164/345/A/1, Pragati Colony, Mailardevpally,
+          Nawab Saheb Kunta, Hyd, 500005
+        </p>
+      </div>
+      <div class="w-[70vw] md:w-[12vw] h-[30vh] flex flex-col justify-around">
+        <p class="text-sm righteous-regular text-[5vw] md:text-[2.4vw]">
+          Classes
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Classroom Classes
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Virtual Classroom Classes
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          E-learning courses
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Video Courses
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Offline Course
+        </p>
+      </div>
+      <div class="w-[70vw] md:w-[12vw] flex flex-col justify-around">
+        <p class="text-sm righteous-regular text-[5vw] md:text-[2.4vw]">
+          Community
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Learners
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Partners
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Developers
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Transactions
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">Blog</p>
+      </div>
+      <div class="w-[70vw] md:w-[12vw] flex flex-col justify-around">
+        <p class="text-sm righteous-regular text-[5vw] md:text-[2.4vw]">
+          Quick Links
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">Home</p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Professional Education
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Courses
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Adminissions
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Testimonials
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Programms
+        </p>
+      </div>
+      <div class="w-[70vw] md:w-[12vw] flex flex-col justify-around">
+        <p class="text-sm righteous-regular text-[5vw] md:text-[2.4vw]">More</p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">Home</p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">Press</p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Investers
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">Terms</p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Privacy
+        </p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">Help</p>
+        <p class="text-sm righteous-regular text-[4vw] md:text-[1vw]">
+          Contact
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
